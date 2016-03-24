@@ -21,8 +21,8 @@ install:
   else
     wget https://raw.githubusercontent.com/menpo/condaci/v0.4.8/condaci.py -O condaci.py;
   fi
-- conda config --add channels jlaura
 - python condaci.py setup
+- conda config --add channels jlaura
 
 script:
   - ~/miniconda/bin/python condaci.py build ./conda
