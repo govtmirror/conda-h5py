@@ -1,7 +1,5 @@
 sudo: false
 
-language: python
-
 os:
   - linux
   - osx
@@ -11,7 +9,6 @@ env:
     - BINSTAR_USER: jlaura
   matrix: 
     - PYTHON_VERSION: 3.5
-
 
 install:
 # We do this conditionally because it saves us some downloading if the
