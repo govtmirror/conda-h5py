@@ -10,7 +10,7 @@ requirements:
   build:
     - python
     - numpy
-    - hdf5
+    - hdf5 1.8.15
     - cython
     - six
     - pkgconfig
@@ -18,7 +18,7 @@ requirements:
   run:
     - python
     - numpy
-    - hdf5
+    - hdf5 1.8.15
     - cython
     - six
     - unittest2    #[py26]
